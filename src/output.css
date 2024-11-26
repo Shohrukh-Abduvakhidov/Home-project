@@ -1403,6 +1403,10 @@ video {
   .lg\:text-\[47px\] {
     font-size: 47px;
   }
+
+  .lg\:text-\[30px\] {
+    font-size: 30px;
+  }
 }
 
 @media (min-width: 1280px) {
