@@ -683,6 +683,14 @@ video {
   height: 56px;
 }
 
+.h-\[24px\] {
+  height: 24px;
+}
+
+.h-\[50px\] {
+  height: 50px;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -737,6 +745,14 @@ video {
 
 .w-\[898px\] {
   width: 898px;
+}
+
+.w-\[50px\] {
+  width: 50px;
+}
+
+.w-\[60px\] {
+  width: 60px;
 }
 
 .max-w-7xl {
@@ -1174,6 +1190,10 @@ video {
 
   .lg\:flex {
     display: flex;
+  }
+
+  .lg\:hidden {
+    display: none;
   }
 
   .lg\:h-\[332px\] {
