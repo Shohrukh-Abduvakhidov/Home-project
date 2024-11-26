@@ -607,6 +607,22 @@ video {
   margin-top: 0.75rem;
 }
 
+.ml-32 {
+  margin-left: 8rem;
+}
+
+.ml-96 {
+  margin-left: 24rem;
+}
+
+.ml-80 {
+  margin-left: 20rem;
+}
+
+.ml-64 {
+  margin-left: 16rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -862,6 +878,19 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-\[72px\] {
+  font-size: 72px;
+}
+
+.text-\[60px\] {
+  font-size: 60px;
 }
 
 .font-bold {
