@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../output.css" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Serif+Display:ital@0;1&family=Flow+Circular&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Unbounded:wght@200..900&family=Yellowtail&display=swap');
+
+    * {
+      margin: 0;
+      max-width: 1440px;
+      margin: auto;
+      font-family: "Inter", sans-serif;
+    }
+
+    #but-1:hover {
+      background-color: #fff;
+      border: 2px solid #1D1E25;
+      color: #1D1E25;
+      transition: all 1s ease-in-out;
+    }
+
+    #but-2:hover {
+      border-color: rgb(0, 94, 255);
+    }
+  </style>
+</head>
+
+<body>
+  <navbar class="w-[90%] flex gap-20 items-center justify-between py-[20px]">
+    <aside class="m-0">
+      <img src="/src/image/Logo (8).png" alt="" class="m-0">
+    </aside>
+    <aside class="flex gap-20 m-0">
+      <ul class="hidden lg:flex gap-[20px]">
+        <li><a href="" class="">Home</a></li>
+        <li><a href="" class="">About</a></li>
+        <li><a href="" class="">Blog</a></li>
+        <li><a href="" class="">Pricing</a></li>
+        <li><a href="" class="">Contact</a></li>
+        <li><a href="" class="">Detail blog</a></li>
+      </ul>
+      <button id="but-2" class="border-b-2 py-[6px] border-[#000000]">Contact Us -></button>
+    </aside>
+  </navbar>
+
+  <ul>
+    <li class="mt-10 text-[35px] text-center lg:text-start lg:ml-20 lg:text-[50px] font-bold">Activity & Updates</li>
+    <li class="lg:ml-60 text-start  mt-10 text-[16px] ml-5 font-bold">Our biggest challenge is making sure we're <br> always designing and
+      building products that <br> will help you run your
+      business better.</li>
+  </ul>
+  <div class="flex ml-2 lg:ml-20 text-lg gap-x-10 mt-20 text-gray-500">
+    <p class="underline text-black">View all</p>
+    <p class="text-gray-500">Design</p>
+    <p>Articles</p>
+    <p>Product</p>
+    <p class="hidden lg:block">Software Development</p>
+    <p class="hidden lg:block">Customer Success</p>
+  </div>
+  <div class="flex mt-10 justify-evenly">
+    <div>
+      <img class="w-[400px]" src="/src/image/Image (32).png" alt="">
+      <p class="text-gray-500 mt-5">Published in Insight Jan 30, 2021</p>
+      <p class="font-bold text-lg mt-5">Practice making User Flow</p>
+      <p class="text-gray-500 mt-5">In this article, we'll cover how to <br> create user flows</p>
+    </div>
+    <div>
+      <img class="w-[400px]" src="/src/image/Image (31).png" alt="">
+      <p class="text-gray-500 mt-5">Published in Insight Jan 30, 2021</p>
+      <p class="font-bold text-xl mt-5">Practice making User Flow</p>
+      <p class="text-gray-500 mt-5">In this article, we'll cover how to <br> create user flows</p>
+    </div>
+    <div class="hidden lg:block">
+      <img class="h-[500px] mt-2 w-[200px] relative" src="/src/image/Frame 1171275125.png" alt="">
+    </div>
+  </div>
+
+
+  <div class="bg-gray-900 text-white">
+    <div class="max-w-7xl mx-auto p-6">
+      <div class="grid gap-6 lg:grid-cols-2 xl:grid-cols-3">
+        <div class="bg-gray-800 rounded-lg shadow-md overflow-hidden">
+          <img src="/src/image/Rectangle 34.png" alt="Laptop" class="w-full object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold">How we perform long-running tasks using AWS services</h3>
+            <p class="text-gray-400 mt-2">Webflow is a web design tool as well as a hosting platform and CMS all in one.
+              While you are probably familiar with all of these, they are usually entirely separate tools.</p>
+          </div>
+        </div>
+        <div class="bg-gray-800 rounded-lg shadow-md overflow-hidden">
+          <img src="/src/image/Rectangle 35.png" alt="Meeting" class="w-full  object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold">How to ask when doing User Research</h3>
+            <p class="text-gray-400 mt-2">Bro, the story is that you want to make an application for buying and selling
+              goods on the market. During user research, what do you think you will ask people?</p>
+          </div>
+        </div>
+        <div class="bg-gray-800 rounded-lg relative shadow-md overflow-hidden">
+          <img src="/src/image/Rectangle 37.png" alt="Discussion" class="w-full object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold">Layout Exploration — Simple exercise but big effect</h3>
+            <p class="text-gray-400 mt-2">Make alternatives or other options for the design we are making. For example,
+              we are creating a website design. Then there is the testimonial section.</p>
+          </div>
+        </div>
+        <div class="bg-gray-800 rounded-lg shadow-md overflow-hidden">
+          <img src="/src/image/Rectangle 36.png" alt="Presentation" class="w-full object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold">Webflow Break the Coding Barrier</h3>
+            <p class="text-gray-400 mt-2">Webflow is a web design tool as well as a hosting platform and CMS all in one.
+              While you are probably familiar with all of these, they are usually entirely separate tools.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
