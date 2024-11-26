@@ -46,23 +46,23 @@
     </aside>
   </navbar>
 
-  <div class="mt-32 text-5xl font-bold ml-20">
+  <div class="text-center text-2xl ml-5 lg:text-start lg:mt-32 lg:text-5xl font-bold lg:ml-20">
     <h1>Contact our team to<br>
       find out more</h1>
   </div>
 
-  <div class="flex mt-16 gap-20 m-10 items-center">
+  <div class=" lg:flex flex-row mt-16 gap-20 m-10 items-center">
     <div>
       <div class="relative z-0">
         <img src="../images/Map.png" alt="">
-        <img src="../images/Pin.png" alt="" class="absolute left-[82%] top-[70%]">
-        <div class="absolute top-64 bg-white p-3 rounded-lg left-[73%]">
+        <img src="../images/Pin.png" alt="" class="hidden lg:block lg:absolute left-[82%] top-[70%]">
+        <div class="hidden lg:block lg:absolute top-64 bg-white p-3 rounded-lg left-[73%]">
           <h1 class="font-bold">Yogja, INA</h1>
           <p class="mt-2 text-[#7E8492]">100 Smith Street <br> Collingwood VIC 3066 AU</p>
         </div>
       </div>
     </div>
-    <div>
+    <div class="ml-20 mt-10">
       <div>
         <h1 class="text-xl">Support</h1>
         <p class="text-[#7E8492]">Our friendly team is<br> here to help.</p>
@@ -81,19 +81,19 @@
     </div>
   </div>
 
-  <div class="flex mt-52 items-center justify-center">
+  <div class="flex flex-col lg:flex lg:flex-row mt-52 items-center justify-center">
     <div>
       <h1 class="text-5xl font-bold">890+</h1>
       <p class="text-[#7E8492] text-xl">Some big companies that we work<br> with, and trust us very much</p>
     </div>
     <div>
-      <div class="flex">
+      <div class="flex flex-col lg:flex lg:flex-row">
         <img src="../images/Airbnb Logo.png" alt="">
         <img src="../images/Amazon Logo.png" alt="">
         <img src="../images/FedEx Logo.png" alt="">
         <img src="../images/Microsoft Logo.png" alt="">
       </div>
-      <div class="flex">
+      <div class="flex flex-col lg:flex lg:flex-row">
         <img src="../images/Google Logo.png" alt="">
         <img src="../images/OLA Logo.png" alt="">
         <img src="../images/Walmart Logo.png" alt="">
@@ -103,13 +103,13 @@
   </div>
 
   <div class="flex mt-32">
-    <div class="relative bg-white w-[608px] h-[784px] top-[50%] left-[20%] rounded-lg">
+    <div class=" lg:relative bg-white lg:w-[608px] h-[784px] top-[50%] left-[20%] rounded-lg">
       <div class="p-10">
-        <h1 class="text-5xl ">Let’s level up your brand</h1>
+        <h1 class="text-2xl lg:text-5xl ">Let’s level up your brand</h1>
         <p class="text-[#7E8492] mt-5">You can reach us anytime <span class="text-[#1463FF]">
             hellosansbrothers@gmail.com</span></p>
       </div>
-      <div class="flex">
+      <div class="flex flex-col lg:flex lg:flex-row">
         <div>
           <label for="inp1">First name</label><br>
           <input type="text" id="inp1" placeholder="First name" class="border-2 p-2 rounded-lg">
@@ -119,9 +119,10 @@
           <input type="text" id="inp2" placeholder="Last name" class="border-2 p-2 rounded-lg">
         </div>
       </div>
-      <div class="p-5">
+      <div class="text-start mt-2 lg:p-5">
         <label for="mail">Email</label><br>
-        <input type="text" id="mail" placeholder="you@company.com" class="border-2 p-2 rounded-lg  w-[500px]">
+        <input type="text" id="mail" placeholder="you@company.com"
+          class="w-[200px] border-2  p-2 rounded-lg lg:border-2 lg:p-2 lg:rounded-lg  lg:w-[500px]">
       </div>
       <div class="p-5">
         <p>Phone number</p>
@@ -129,64 +130,64 @@
           <select name="" id="us" class="border-2 p-3 rounded-l-lg ">
             <option value="">US</option>
           </select>
-          <p class="border-2 p-2 rounded-r-lg w-[430px]">+1 (555) 000-0000</p>
+          <p class="w-[200px] border-2 p-2 rounded-r-lg lg:w-[430px]">+1 (555) 000-0000</p>
         </div>
       </div>
       <div class="p-5">
         <p>Message</p>
         <textarea name="" id="mes" placeholder="Leave us a message..."
-          class="border-2 p-2 rounded-lg w-[500px]"></textarea><br>
+          class="w-[300px] border-2 p-2 rounded-lg lg:w-[500px]"></textarea><br>
       </div>
       <div class="p-10">
         <button class="p-2 bg-[#1D1E25] text-white rounded-full">Get Started</button>
       </div>
     </div>
-    <div>
+    <div class="hidden lg:block">
       <img src="../images/Image (1).png" alt="">
     </div>
   </div>
 
   <div class="bg-[#1D1E25] mt-52 w-full">
-    <div class="p-20 text-white flex ">
+    <div class="flex flex-col p-20 text-white lg:flex lg:flex-row">
       <div class="text-start">
-        <h1 class="text-5xl">Think beyond the wave</h1>
-        <p class="text-xl mt-2">Ask about Sans products, pricing, implementation, or anything<br>
+        <h1 class="text-3xl lg:text-5xl">Think beyond the wave</h1>
+        <p class="text-lg lg:text-xl mt-2">Ask about Sans products, pricing, implementation, or anything<br>
           else. Our highly trained reps are standing by, ready to help</p>
       </div>
       <div>
-        <button class="bg-white text-[#1D1E25] p-3 rounded-full">Try for free</button>
+        <button class="bg-white text-[#1D1E25] p-3 rounded-full mt-3">Try for free</button>
       </div>
     </div>
 
-    <div class="flex mt-32 text-[#7E8492] p-10 items-center">
+    <div class="mt-0 lg:flex lg:mt-32 text-[#7E8492] p-10 items-center">
       <div class="text-start">
         <img src="../images/Logo (2).png" alt="" class="ml-10">
         <p class="mt-2">We built an elegant solution. Our team<br>
           created a fully integrated sales and<br>
           marketing solution for SMBs</p>
       </div>
-      <div class="text-start">
+      <div class="hidden lg:block text-start">
         <h1 class="font-bold text-lg text-white">Company</h1>
         <p class="mt-2">About</p>
         <p class="mt-2">Pricing</p>
         <p class="mt-2">Jobs</p>
         <p class="mt-2">Blog</p>
       </div>
-      <div class="text-start">
+      <div class="hidden lg:block text-start">
         <h1 class="font-bold text-lg text-white">Product</h1>
         <p class="mt-2">Sales Software</p>
         <p class="mt-2">Marketplace</p>
         <p class="mt-2">Terms & Conditions</p>
         <p class="mt-2">Privacy Policy</p>
       </div>
-      <div class="text-start">
+      <div class="hidden lg:block text-start">
         <h1 class="font-bold text-lg text-white">Discover</h1>
         <p class="mt-2">CRM Comparision</p>
         <p class="mt-2">Partner Program</p>
         <p class="mt-2">What is CRM</p>
         <p class="mt-2">Resource</p>
       </div>
-      <div class="text-start">
+      <div class="hidden lg:block text-start">
         <h1 class="font-bold text-lg text-white">Help Center</h1>
         <p class="mt-2">Community</p>
         <p class="mt-2">Knowledge Base</p>
@@ -195,9 +196,12 @@
       </div>
     </div>
 
-    <div class="text-white flex mt-32 border-t-2 border-[#606060] w-[1200px]">
+    <div class="flex flex-col text-white lg:flex lg:flex-row mt-32 border-t-2 border-[#606060] w-[1200]">
       <div class="flex gap-10 p-10">
         <img src="../images/Social media (1).png" alt="">
+      </div>
+
+      <div class="flex gap-3 lg:flex lg:gap-10 p-10">
         <p>Privacy Policy</p>
         <p>Terms & Conditions</p>
         <p>Support</p>
