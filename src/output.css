@@ -876,6 +876,10 @@ video {
     margin-top: 8rem;
   }
 
+  .lg\:ml-0 {
+    margin-left: 0px;
+  }
+
   .lg\:block {
     display: block;
   }
