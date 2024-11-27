@@ -9,19 +9,24 @@
 </head>
 
 <body class="max-w-[1600px] m-auto">
-    <navbar class="flex justify-between items-center p-5 font-semibold gap-[10px] lg:px-7">
-        <img src="/img/Logo (1).png" alt="">
-        <div class="flex gap-[40px] items-center">
-            <div class="hidden lg:flex gap-[40px]">
-                <a class="hover:text-[red] text-red-600" href="index.html">Home</a>
-                <a class="hover:text-[red]" href="about.html">About</a>
-                <a class="hover:text-[red]" href="blog.html">Blog</a>
-                <a class="hover:text-[red]" href="pricing.html">Pricing</a>
-            </div>
-            <button class="font-bold hover:underline"><a href="contact.html">Contact Us →</a></button>
-        </div>
-    </navbar>
-    <div class="flex flex-col gap-4 text-center items-center justify-center">
+    <navbar class="w-[90%] flex gap-20 items-center justify-between py-[20px] m-auto">
+        <aside class="m-0">
+          <img src="../images/Logo (1).png" alt="" class="m-0">
+        </aside>
+        <aside class="flex gap-20 m-0">
+          <ul class="hidden lg:flex gap-[20px]">
+            <li><a href="../page-1/page-1.html" class="">Home</a></li>
+            <li><a href="../page-2/page-2.html" class="">About</a></li>
+            <li><a href="../page-5/page-5.html" class="">Blog</a></li>
+            <li><a href="../page-4/page-3.html" class="">Pricing</a></li>
+            <li><a href="../page-4/page-4.html" class="">Contact</a></li>
+            <li><a href="../page-6/page-6.html" class="">Detail blog</a></li> 
+          </ul>
+          <img src="../images/burger-menu.png" alt="" class="block m-0 lg:hidden w-[60px] h-[50px] px-[10px]">
+          <button id="but-2" class="hidden lg:block border-b-2 py-[6px] border-[#000000]">Contact Us -></button>
+        </aside>
+      </navbar>
+    <div class="flex flex-col items-center justify-center gap-4 text-center">
         <img class="flex items-center justify-center" src="/img/Badge base.png" alt="">
         <p class=" text-[35px] lg:text-[60px]">Choose a plan for a more <br> advanced business</p>
         <div class="flex">
@@ -29,13 +34,13 @@
             <p>Annual pricing (save 20%)</p>
         </div>
     </div>
-    <div class="bg-gray-100 text-white mt-8">
+    <div class="mt-8 text-white bg-gray-100">
 
-        <div class="container mx-auto px-4 py-16">
-            <div class="flex flex-col lg:flex-row justify-center items-center lg:items-stretch gap-8">
-                <div class="bg-gray-300 border border-gray-700 rounded-lg p-8 flex-1 relative top-10">
+        <div class="container px-4 py-16 mx-auto">
+            <div class="flex flex-col items-center justify-center gap-8 lg:flex-row lg:items-stretch">
+                <div class="relative flex-1 p-8 bg-gray-300 border border-gray-700 rounded-lg top-10">
                     <h2 class="text-2xl font-bold mb-4 text-[#1D1E25]">Starter</h2>
-                    <p class="text-gray-400 mb-8">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    <p class="mb-8 text-gray-400">Lorem Ipsum is simply dummy text of the printing and typesetting
                         industry.</p>
                     <p class="text-4xl font-bold text-[#1D1E25]">$100 <span class="text-lg font-normal">/mo</span></p>
                     <ul class="mt-6 space-y-2 text-[#1D1E25]">
@@ -48,13 +53,13 @@
                         <li class="line-through"><span class="text-gray-500">✖️</span> Customize Your Profile</li>
                         <li class="line-through"><span class="text-gray-500">✖️</span> Display Your Workshops</li>
                     </ul>
-                    <button class="mt-8 w-full bg-gray-700 py-2 rounded-lg hover:bg-gray-600">Choose Plan</button>
+                    <button class="w-full py-2 mt-8 bg-gray-700 rounded-lg hover:bg-gray-600">Choose Plan</button>
                 </div>
-                <div class="bg-gray-900 border border-blue-700 rounded-lg p-8 flex-1 relative ">
-                    <span class="absolute top-4 right-4 bg-blue-700 text-sm px-3 py-1 rounded-full">Best Offers
+                <div class="relative flex-1 p-8 bg-gray-900 border border-blue-700 rounded-lg ">
+                    <span class="absolute px-3 py-1 text-sm bg-blue-700 rounded-full top-4 right-4">Best Offers
                         🔥</span>
-                    <h2 class="text-2xl font-bold mb-4">Popular</h2>
-                    <p class="text-gray-400 mb-8">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    <h2 class="mb-4 text-2xl font-bold">Popular</h2>
+                    <p class="mb-8 text-gray-400">Lorem Ipsum is simply dummy text of the printing and typesetting
                         industry.</p>
                     <p class="text-4xl font-bold">$1400 <span class="text-lg font-normal">/mo</span></p>
                     <ul class="mt-6 space-y-2">
@@ -68,12 +73,12 @@
                         <li><span class="text-green-500">✔️</span> Customize Your Profile</li>
                         <li><span class="text-green-500">✔️</span> Display Your Workshops</li>
                     </ul>
-                    <button class="mt-8 w-full bg-blue-700 py-2 rounded-lg hover:bg-blue-600">Choose Plan</button>
+                    <button class="w-full py-2 mt-8 bg-blue-700 rounded-lg hover:bg-blue-600">Choose Plan</button>
                 </div>
 
-                <div class="bg-gray-300 border border-gray-700 rounded-lg p-8 flex-1 relative top-10">
+                <div class="relative flex-1 p-8 bg-gray-300 border border-gray-700 rounded-lg top-10">
                     <h2 class="text-2xl font-bold mb-4 text-[#1D1E25]">Enterprise</h2>
-                    <p class="text-gray-400 mb-8">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    <p class="mb-8 text-gray-400">Lorem Ipsum is simply dummy text of the printing and typesetting
                         industry.</p>
                     <p class="text-4xl font-bold text-[#1D1E25]">$2100 <span class="text-lg font-normal">/mo</span></p>
                     <ul class="mt-6 space-y-2 text-[#1D1E25]">
@@ -86,7 +91,7 @@
                         <li><span class="text-green-500">✔️</span> Customize Your Profile</li>
                         <li><span class="text-green-500">✔️</span> Display Your Workshops</li>
                     </ul>
-                    <button class="mt-8 w-full bg-gray-700 py-2 rounded-lg hover:bg-gray-600">Choose Plan</button>
+                    <button class="w-full py-2 mt-8 bg-gray-700 rounded-lg hover:bg-gray-600">Choose Plan</button>
                 </div>
 
             </div>
@@ -94,13 +99,13 @@
 
     </div>
     <div class="bg-gray-100 text-[#1D1E25] font-sans">
-        <div class="container mx-auto px-4 py-12">
-            <h1 class="text-4xl font-bold text-center mb-6">Frequently Asked Questions</h1>
-            <p class="text-center text-gray-400 mb-8">Everything you need to know about the product and billing.</p>
+        <div class="container px-4 py-12 mx-auto">
+            <h1 class="mb-6 text-4xl font-bold text-center">Frequently Asked Questions</h1>
+            <p class="mb-8 text-center text-gray-400">Everything you need to know about the product and billing.</p>
 
             <div class="space-y-4">
                 <div class="border-b border-gray-700">
-                    <button class="w-full text-left flex justify-between items-center py-4 ">
+                    <button class="flex items-center justify-between w-full py-4 text-left ">
                         <span class="text-lg">Is there a free trial available?</span>
                         <span class="text-gray-400">-</span>
                     </button>
@@ -110,26 +115,26 @@
                     </div>
                 </div>
                 <div class="border-b border-gray-700">
-                    <button class="w-full text-left flex justify-between items-center py-4 focus:outline-none">
+                    <button class="flex items-center justify-between w-full py-4 text-left focus:outline-none">
                         <span class="text-lg">How Can I Add More Emails To My Account?</span>
                         <span class="text-gray-400">+</span>
                     </button>
                 </div>
                 <div class="border-b border-gray-700">
-                    <button class="w-full text-left flex justify-between items-center py-4 ">
+                    <button class="flex items-center justify-between w-full py-4 text-left ">
                         <span class="text-lg">Can I Change Plans Or Cancel My Subscription At Any Time</span>
                         <span class="text-gray-400">+</span>
                     </button>
                 </div>
                 <div class="border-b border-gray-700">
-                    <button class="w-full text-left flex justify-between items-center py-4 ">
+                    <button class="flex items-center justify-between w-full py-4 text-left ">
                         <span class="text-lg">How Secure Is My Data With Sans CRM</span>
                         <span class="text-gray-400">+</span>
                     </button>
                 </div>
                 <div class="border-b border-gray-700">
 
-                    <button class="w-full text-left flex justify-between items-center py-4 ">
+                    <button class="flex items-center justify-between w-full py-4 text-left ">
                         <span class="text-lg">What Is The Uptime Guarantee</span>
                         <span class="text-gray-400">+</span>
                     </button>
@@ -147,7 +152,7 @@
                         or anything else. Our highly trained reps are standing by, ready to help</p>
                 </div>
             </div>
-            <button class="text-black font-semibold rounded-full px-5 py-2 bg-white">Try for free</button>
+            <button class="px-5 py-2 font-semibold text-black bg-white rounded-full">Try for free</button>
         </section>
         <section class="flex flex-col gap-[10px] text-white">
             <div class="flex justify-between items-center py-[50px]">
